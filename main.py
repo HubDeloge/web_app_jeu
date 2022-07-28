@@ -15,4 +15,4 @@ def fonction_jeu():
   print(choix_joueur) 
   return render_template('page jeu.html', resu =resultat, tira = mon_tirage)
 
-app.run(host='0.0.0.0', port=81)
+#app.run(host='0.0.0.0', port=81)
